@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './post-list-item.css'
+
 const PostListItem = () => {
 	return (
-		<li className="app-list d-flex justify-content-between">
+		<li className="app-list-item d-flex justify-content-between">
 			<span className="app-list-item-label">
 				Hello World!!
 			</span>
